@@ -1,8 +1,8 @@
 package com.tunlin.repository;
 
-import com.tunlin.model.Cart;
-import com.tunlin.model.CartItem;
-import com.tunlin.model.Product;
+import com.tunlin.modal.Cart;
+import com.tunlin.modal.CartItem;
+import com.tunlin.modal.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CartItemRepository extends JpaRepository<CartItem,Long> {

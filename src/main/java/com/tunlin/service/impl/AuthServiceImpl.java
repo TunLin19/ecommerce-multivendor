@@ -2,10 +2,10 @@ package com.tunlin.service.impl;
 
 import com.tunlin.config.JwtProvider;
 import com.tunlin.domain.USER_ROLE;
-import com.tunlin.model.Cart;
-import com.tunlin.model.Seller;
-import com.tunlin.model.User;
-import com.tunlin.model.VerificationCode;
+import com.tunlin.modal.Cart;
+import com.tunlin.modal.Seller;
+import com.tunlin.modal.User;
+import com.tunlin.modal.VerificationCode;
 import com.tunlin.repository.CartRepository;
 import com.tunlin.repository.SellerRepository;
 import com.tunlin.repository.UserRepository;

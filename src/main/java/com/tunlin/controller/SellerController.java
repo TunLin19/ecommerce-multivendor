@@ -2,13 +2,15 @@ package com.tunlin.controller;
 
 import com.tunlin.domain.AccountStatus;
 import com.tunlin.exceptions.SellerException;
-import com.tunlin.model.Seller;
-import com.tunlin.model.VerificationCode;
+import com.tunlin.modal.Seller;
+import com.tunlin.modal.SellerReport;
+import com.tunlin.modal.VerificationCode;
 import com.tunlin.repository.VerificationCodeRepository;
 import com.tunlin.request.LoginRequest;
 import com.tunlin.response.AuthResponse;
 import com.tunlin.service.AuthService;
 import com.tunlin.service.EmailService;
+import com.tunlin.service.SellerReportService;
 import com.tunlin.service.SellerService;
 import com.tunlin.utils.OtpUtil;
 import lombok.RequiredArgsConstructor;
@@ -27,6 +29,7 @@ public class SellerController {
     private final VerificationCodeRepository verificationCodeRepository;
     private final AuthService authService;
     private final EmailService emailService;
+    private final SellerReportService sellerReportService;
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> loginSeller(
@@ -92,10 +95,14 @@ public class SellerController {
 
     }
 
-//    @GetMapping("/report")
-//    public ResponseEntity<SellerReport> getSellerReport(){
-//        return null;
-//    }
+    @GetMapping("/report")
+    public ResponseEntity<SellerReport> getSellerReport(@RequestHeader("Authorization") String jwt) throws Exception {
+
+//        String email =
+        Seller seller = sellerService.getSellerProfile(jwt);
+        SellerReport sellerReport = sellerReportService.getSellerReport(seller);
+        return new ResponseEntity<>(sellerReport,HttpStatus.OK);
+    }
 
     @GetMapping
     public ResponseEntity<List<Seller>> getAllSellers(@RequestParam(required = false)AccountStatus status){

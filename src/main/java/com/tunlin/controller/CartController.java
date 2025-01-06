@@ -1,9 +1,9 @@
 package com.tunlin.controller;
 
-import com.tunlin.model.Cart;
-import com.tunlin.model.CartItem;
-import com.tunlin.model.Product;
-import com.tunlin.model.User;
+import com.tunlin.modal.Cart;
+import com.tunlin.modal.CartItem;
+import com.tunlin.modal.Product;
+import com.tunlin.modal.User;
 import com.tunlin.request.AddItemRequest;
 import com.tunlin.response.ApiResponse;
 import com.tunlin.service.CartItemService;

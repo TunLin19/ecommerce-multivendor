@@ -1,6 +1,6 @@
 package com.tunlin.repository;
 
-import com.tunlin.model.Order;
+import com.tunlin.modal.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

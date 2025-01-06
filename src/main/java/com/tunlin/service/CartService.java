@@ -1,9 +1,9 @@
 package com.tunlin.service;
 
-import com.tunlin.model.Cart;
-import com.tunlin.model.CartItem;
-import com.tunlin.model.Product;
-import com.tunlin.model.User;
+import com.tunlin.modal.Cart;
+import com.tunlin.modal.CartItem;
+import com.tunlin.modal.Product;
+import com.tunlin.modal.User;
 
 public interface CartService {
 

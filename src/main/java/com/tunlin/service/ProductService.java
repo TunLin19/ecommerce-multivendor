@@ -1,8 +1,8 @@
 package com.tunlin.service;
 
 import com.tunlin.exceptions.ProductException;
-import com.tunlin.model.Product;
-import com.tunlin.model.Seller;
+import com.tunlin.modal.Product;
+import com.tunlin.modal.Seller;
 import com.tunlin.request.CreateProductRequest;
 import org.springframework.data.domain.Page;
 

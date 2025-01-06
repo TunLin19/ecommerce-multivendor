@@ -1,9 +1,9 @@
 package com.tunlin.service.impl;
 
 import com.tunlin.exceptions.ProductException;
-import com.tunlin.model.Category;
-import com.tunlin.model.Product;
-import com.tunlin.model.Seller;
+import com.tunlin.modal.Category;
+import com.tunlin.modal.Product;
+import com.tunlin.modal.Seller;
 import com.tunlin.repository.CategoryRepository;
 import com.tunlin.repository.ProductRepository;
 import com.tunlin.request.CreateProductRequest;

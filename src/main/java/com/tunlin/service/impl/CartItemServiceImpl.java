@@ -1,7 +1,7 @@
 package com.tunlin.service.impl;
 
-import com.tunlin.model.CartItem;
-import com.tunlin.model.User;
+import com.tunlin.modal.CartItem;
+import com.tunlin.modal.User;
 import com.tunlin.repository.CartItemRepository;
 import com.tunlin.service.CartItemService;
 import lombok.RequiredArgsConstructor;

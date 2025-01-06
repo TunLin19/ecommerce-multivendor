@@ -1,6 +1,6 @@
 package com.tunlin.controller;
 
-import com.tunlin.model.User;
+import com.tunlin.modal.User;
 import com.tunlin.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

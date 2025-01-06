@@ -1,6 +1,6 @@
 package com.tunlin.service;
 
-import com.tunlin.model.User;
+import com.tunlin.modal.User;
 
 public interface UserService {
 

@@ -1,9 +1,9 @@
 package com.tunlin.service.impl;
 
-import com.tunlin.model.Cart;
-import com.tunlin.model.CartItem;
-import com.tunlin.model.Product;
-import com.tunlin.model.User;
+import com.tunlin.modal.Cart;
+import com.tunlin.modal.CartItem;
+import com.tunlin.modal.Product;
+import com.tunlin.modal.User;
 import com.tunlin.repository.CartItemRepository;
 import com.tunlin.repository.CartRepository;
 import com.tunlin.service.CartService;

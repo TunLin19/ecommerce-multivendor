@@ -1,7 +1,7 @@
 package com.tunlin.controller;
 
 import com.tunlin.exceptions.ProductException;
-import com.tunlin.model.Product;
+import com.tunlin.modal.Product;
 import com.tunlin.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

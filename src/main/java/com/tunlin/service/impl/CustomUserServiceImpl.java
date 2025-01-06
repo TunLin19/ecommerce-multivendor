@@ -1,8 +1,8 @@
 package com.tunlin.service.impl;
 
 import com.tunlin.domain.USER_ROLE;
-import com.tunlin.model.Seller;
-import com.tunlin.model.User;
+import com.tunlin.modal.Seller;
+import com.tunlin.modal.User;
 import com.tunlin.repository.SellerRepository;
 import com.tunlin.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
 package com.tunlin.service;
 
-import com.tunlin.model.CartItem;
+import com.tunlin.modal.CartItem;
 
 public interface CartItemService {
 

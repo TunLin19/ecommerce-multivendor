@@ -1,7 +1,7 @@
 package com.tunlin.repository;
 
 import com.tunlin.domain.AccountStatus;
-import com.tunlin.model.Seller;
+import com.tunlin.modal.Seller;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

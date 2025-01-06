@@ -2,7 +2,7 @@ package com.tunlin.service;
 
 import com.tunlin.domain.AccountStatus;
 import com.tunlin.exceptions.SellerException;
-import com.tunlin.model.Seller;
+import com.tunlin.modal.Seller;
 
 import java.util.List;
 

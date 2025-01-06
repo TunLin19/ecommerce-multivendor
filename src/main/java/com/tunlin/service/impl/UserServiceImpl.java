@@ -1,7 +1,7 @@
 package com.tunlin.service.impl;
 
 import com.tunlin.config.JwtProvider;
-import com.tunlin.model.User;
+import com.tunlin.modal.User;
 import com.tunlin.repository.UserRepository;
 import com.tunlin.service.UserService;
 import lombok.RequiredArgsConstructor;
