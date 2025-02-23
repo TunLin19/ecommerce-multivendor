@@ -1,4 +1,4 @@
-package com.tunlin.response;
+package com.tunlin.request;
 
 import lombok.Data;
 

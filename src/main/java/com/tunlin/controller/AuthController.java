@@ -5,7 +5,7 @@ import com.tunlin.request.LoginOtpRequest;
 import com.tunlin.request.LoginRequest;
 import com.tunlin.response.ApiResponse;
 import com.tunlin.response.AuthResponse;
-import com.tunlin.response.SignupRequest;
+import com.tunlin.request.SignupRequest;
 import com.tunlin.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

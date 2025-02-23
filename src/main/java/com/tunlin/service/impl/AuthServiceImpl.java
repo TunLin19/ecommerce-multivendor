@@ -12,7 +12,7 @@ import com.tunlin.repository.UserRepository;
 import com.tunlin.repository.VerificationCodeRepository;
 import com.tunlin.request.LoginRequest;
 import com.tunlin.response.AuthResponse;
-import com.tunlin.response.SignupRequest;
+import com.tunlin.request.SignupRequest;
 import com.tunlin.service.AuthService;
 import com.tunlin.service.EmailService;
 import com.tunlin.utils.OtpUtil;
@@ -139,7 +139,7 @@ public class AuthServiceImpl implements AuthService {
             userRepository.save(createdUser);
 
             Cart cart = new Cart();
-            cart.setUser(user);
+            cart.setUser(createdUser);
             cartRepository.save(cart);
 
         }

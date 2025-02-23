@@ -3,7 +3,7 @@ package com.tunlin.service;
 import com.tunlin.domain.USER_ROLE;
 import com.tunlin.request.LoginRequest;
 import com.tunlin.response.AuthResponse;
-import com.tunlin.response.SignupRequest;
+import com.tunlin.request.SignupRequest;
 
 
 public interface AuthService {
