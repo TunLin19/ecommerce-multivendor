@@ -1,3 +1,7 @@
+**Clone repository**:
+```
+https://github.com/TunLin19/ecommerce-multivendor.git
+```
 1. **User**
     - One-to-Many with **Address**: A user can have multiple addresses.
     - Many-to-Many with **Coupon**: Users can use multiple coupons, and a coupon can be used by multiple users.
